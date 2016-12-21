@@ -1,5 +1,11 @@
-
-package com.epsilonnet.startapp;
+/**
+	com.lampa.startapp
+	https://github.com/lampaa/com.lampa.startapp
+	
+	Phonegap plugin for check or launch other application in android device (iOS support).
+	bug tracker: https://github.com/lampaa/com.lampa.startapp/issues
+*/
+package com.lampa.startapp;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

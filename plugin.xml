@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-	id="com.epsilonnet.startapp"
+	id="com.lampa.startapp"
 	version="0.1.5">
 
     <name>startApp</name>
     <description>Phonegap plugin for check or launch other application in android device.</description>
     <license>MIT</license>
-    <keywords>cordova,startapp,epsilonnet</keywords>
+    <keywords>cordova,startapp,lampa</keywords>
 
     <js-module src="www/startApp.js" name="startapp">
         <merges target="startApp" />
@@ -17,11 +17,11 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="startApp">
-                <param name="android-package" value="com.epsilonnet.startapp.startApp"/>
+                <param name="android-package" value="com.lampa.startapp.startApp"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/startApp.java" target-dir="src/com/epsilonnet/startapp" />
+        <source-file src="src/android/startApp.java" target-dir="src/com/lampa/startapp" />
     </platform>
 
 
